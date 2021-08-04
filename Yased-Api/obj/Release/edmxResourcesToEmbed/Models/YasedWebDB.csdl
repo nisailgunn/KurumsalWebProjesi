@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="YasedWebDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Activity">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Title" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Title_EN" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Content" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Content_EN" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Image" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Url" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Slug" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Slug_EN" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Insight">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Title" Type="String" MaxLength="300" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Title_EN" Type="String" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Name="Image" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Slug" Type="String" MaxLength="300" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Slug_EN" Type="String" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Description_EN" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Video" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Docs" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Spot" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Spot_EN" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Video_EN" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Docs_EN" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="Media">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Title" Type="String" MaxLength="300" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Title_EN" Type="String" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Name="File" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Member">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Title" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Title_EN" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Content" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Content_EN" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Image" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Slug" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Slug_EN" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="News">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Title" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Title_EN" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Content" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Content_EN" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Image" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Url" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Slug" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Slug_EN" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="cat" Type="Int32" Nullable="false" />
+    <Property Name="Video" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Docs" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Spot" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Spot_EN" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Video_EN" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Docs_EN" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Is_Login" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Note">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Title" Type="String" MaxLength="300" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Title_EN" Type="String" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Name="File" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Slug" Type="String" MaxLength="300" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Slug_EN" Type="String" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="ParentId" Type="Int32" />
+    <Property Name="File_EN" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Report">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Title" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Title_EN" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Content" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Content_EN" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Image" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="File" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Url" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Slug" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Slug_EN" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="ParentId" Type="Int32" />
+    <Property Name="File_EN" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Slider">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Title" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="Title_EN" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="Description_EN" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="Slug" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="Slug_EN" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="ImageURL" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Link" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Link_EN" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Sort" Type="Int32" />
+    <Property Name="CategoryId" Type="Int32" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="United">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Title" Type="String" MaxLength="300" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Title_EN" Type="String" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Name="Image" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Slug" Type="String" MaxLength="300" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Slug_EN" Type="String" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Docs" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Video" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Description_EN" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Spot" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Spot_EN" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Video_EN" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Docs_EN" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="auth" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="YasedWebDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Activities" EntityType="Self.Activity" />
+    <EntitySet Name="Insights" EntityType="Self.Insight" />
+    <EntitySet Name="Medias" EntityType="Self.Media" />
+    <EntitySet Name="Members" EntityType="Self.Member" />
+    <EntitySet Name="News" EntityType="Self.News" />
+    <EntitySet Name="Notes" EntityType="Self.Note" />
+    <EntitySet Name="Reports" EntityType="Self.Report" />
+    <EntitySet Name="Sliders" EntityType="Self.Slider" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <EntitySet Name="Uniteds" EntityType="Self.United" />
+    <EntitySet Name="Users" EntityType="Self.User" />
+    <EntitySet Name="Contents" EntityType="YasedWebDBModel.Content" />
+    <EntitySet Name="ReportCats" EntityType="YasedWebDBModel.ReportCat" />
+    <EntitySet Name="MemberUsers" EntityType="YasedWebDBModel.MemberUser" />
+    <EntitySet Name="Menus" EntityType="YasedWebDBModel.Menu" />
+    <EntitySet Name="Galleries" EntityType="YasedWebDBModel.Gallery" />
+    <EntitySet Name="Profiles" EntityType="YasedWebDBModel.Profile" />
+  </EntityContainer>
+  <EntityType Name="Content">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Title" Type="String" Nullable="false" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="Description" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Description_EN" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Slug" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Slug_EN" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="CategoryId" Type="Int32" />
+    <Property Name="Image" Type="String" MaxLength="100" FixedLength="true" Unicode="true" />
+    <Property Name="Type" Type="Int32" />
+  </EntityType>
+  <EntityType Name="ReportCat">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Name="Name_EN" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Name="Slug" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Name="Slug_EN" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="MemberUser">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FK_MemberStatusID" Type="Int32" />
+    <Property Name="FK_CompanyID" Type="Int32" />
+    <Property Name="FK_MemberRolesID" Type="Int32" />
+    <Property Name="FirstName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="LastName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="FullName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="PhotoPath" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="Title" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MobilePhone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Birthdate" Type="DateTime" Precision="0" />
+    <Property Name="Gender" Type="Boolean" />
+    <Property Name="LoginKey" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <Property Name="LastLoginDate" Type="DateTime" Precision="3" />
+    <Property Name="DeviceToken" Type="String" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Name="IsIOS" Type="Boolean" />
+    <Property Name="Version" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Model" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Uuid" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="TokenUpdateDate" Type="DateTime" Precision="3" />
+    <Property Name="ResetGuid" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ResetCount" Type="Int32" />
+    <Property Name="DocGuid" Type="String" MaxLength="36" FixedLength="false" Unicode="true" />
+    <Property Name="Company" Type="String" MaxLength="500" FixedLength="true" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Menu">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ParentId" Type="Int32" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Name_EN" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Link" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Sort" Type="Int32" Nullable="false" />
+    <Property Name="target" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Link_EN" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Gallery">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="image" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="insight_id" Type="Int32" />
+    <Property Name="news_id" Type="Int32" />
+    <Property Name="united_id" Type="Int32" />
+    <Property Name="sort" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Profile">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="name_en" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="title" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="title_en" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="label" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="label_en" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="image" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+  </EntityType>
+</Schema>

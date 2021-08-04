@@ -1,0 +1,41 @@
+﻿@model IEnumerable<Yased_Api.Models.Slider>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h4 class="card-title">Slider Yönetimi</h4>
+
+<p>
+    @Html.ActionLink("Yeni Ekle", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            Başlık
+        </th>     
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @if (item.Title != null)
+            {
+                @Html.DisplayFor(modelItem => item.Title)
+            }
+            else
+            {
+                @Html.DisplayFor(modelItem => item.Title_EN)
+
+            }
+        </td>
+        <td>
+            @Html.ActionLink("Düzenle", "Edit", new { id = item.Id }) |
+            @Html.ActionLink("Sil", "Delete", new { id = item.Id })
+        </td>
+    </tr>
+}
+
+</table>

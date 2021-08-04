@@ -1,0 +1,40 @@
+﻿@model IEnumerable<Yased_Api.Models.United>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>United İçerik Yönetimi</h2>
+
+<p>
+    @Html.ActionLink("Yeni Ekle", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            Başlık
+        </th>
+        <th>
+            Tarih
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Title)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Date)
+        </td>
+        <td>
+            @Html.ActionLink("Galeri", "Create", "Galleries", new { united_id = item.Id }, null) |
+            @Html.ActionLink("Düzenle", "Edit", new { id = item.Id }) |
+            @Html.ActionLink("Sil", "Delete", new { id = item.Id })
+        </td>
+    </tr>
+}
+
+</table>

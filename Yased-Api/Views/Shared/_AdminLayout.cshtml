@@ -1,0 +1,229 @@
+﻿@{ 
+
+    if (Session["AdminId"] == null)
+    {
+        Response.Redirect("/Admin/login");
+    }
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Yased Admin</title>
+    <!-- plugins:css -->
+    <link rel="stylesheet" href="/Content/AdminLayout/assets/vendors/mdi/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="/Content/AdminLayout/assets/vendors/css/vendor.bundle.base.css">
+    <!-- endinject -->
+    <!-- Plugin css for this page -->
+    <!-- End plugin css for this page -->
+    <!-- inject:css -->
+    <!-- endinject -->
+    <!-- Layout styles -->
+    <link rel="stylesheet" href="/Content/AdminLayout/assets/css/style.css">
+    <!-- End layout styles -->
+    <link rel="shortcut icon" href="/Content/AdminLayout/assets/images/favicon.png" />
+</head>
+<body>
+    <div class="container-scroller">
+        <!-- partial:partials/_navbar.html -->
+        <nav class="navbar default-layout-navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
+            <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
+                <a class="navbar-brand brand-logo" href="/admin"><img src="~/Content/AdminLayout/assets/images/logo.png" alt="logo" /></a>
+                <a class="navbar-brand brand-logo-mini" href="/admin"><img src="~/Content/AdminLayout/assets/images/logo.png" alt="logo" /></a>
+            </div>
+            <div class="navbar-menu-wrapper d-flex align-items-stretch">
+                <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
+                    <span class="mdi mdi-menu"></span>
+                </button>
+                <ul class="navbar-nav navbar-nav-right">
+                    <li class="nav-item d-none d-lg-block full-screen-link">
+                        <a class="nav-link">
+                            <i class="mdi mdi-fullscreen" id="fullscreen-button"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item nav-profile dropdown">
+                        <a class="nav-link" id="profileDropdown" href="/Admin/logout">
+                          Çıkış Yap
+                        </a>
+                    </li>
+
+                </ul>
+                <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
+                    <span class="mdi mdi-menu"></span>
+                </button>
+            </div>
+        </nav>
+        <!-- partial -->
+        <div class="container-fluid page-body-wrapper">
+            <!-- partial:partials/_sidebar.html -->
+            <nav class="sidebar sidebar-offcanvas" id="sidebar">
+                <ul class="nav">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Admin/Index/">
+                            <span class="menu-title">Ana Sayfa</span>
+                            <i class="mdi mdi-home menu-icon"></i>
+                        </a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Contents/Index/">
+                            <span class="menu-title">İçerik</span>
+                            <i class="mdi mdi-file-document menu-icon"></i>
+                        </a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Menus/Index/">
+                            <span class="menu-title">Menüler</span>
+                            <i class="mdi mdi-menu menu-icon"></i>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Slider/Index/">
+                            <span class="menu-title">Slider</span>
+                            <i class="mdi mdi-image menu-icon"></i>
+                        </a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Activities/Index/">
+                            <span class="menu-title">Aktivite Yönetimi</span>
+                            <i class="mdi mdi-file menu-icon"></i>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Insights/Index/">
+                            <span class="menu-title">Insight Yönetimi</span>
+                            <i class="mdi  mdi-access-point  menu-icon"></i>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Uniteds/Index/">
+                            <span class="menu-title">Yased United</span>
+                            <i class="mdi  mdi-book-open-variant  menu-icon"></i>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Profiles/Index/">
+                            <span class="menu-title">Profile Yönetimi</span>
+                            <i class="mdi  mdi-file-tree  menu-icon"></i>
+                        </a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Media/Index/">
+                            <span class="menu-title">Medya Yönetimi</span>
+                            <i class="mdi  mdi-file-tree  menu-icon"></i>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Members/Index/">
+                            <span class="menu-title">Üyeler</span>
+                            <i class="mdi  mdi-account-check  menu-icon"></i>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/MemberUsers/Index/">
+                            <span class="menu-title">Kullanıcılar</span>
+                            <i class="mdi  mdi-lock-open menu-icon"></i>
+                        </a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Notes/Index/">
+                            <span class="menu-title">Toplantı Notları</span>
+                            <i class="mdi  mdi-animation  menu-icon"></i>
+                        </a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/News/Index/">
+                            <span class="menu-title">Haber Yönetimi</span>
+                            <i class="mdi  mdi-book-open-variant  menu-icon"></i>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/ReportCats/Index/">
+                            <span class="menu-title">Rapor Kategorisi</span>
+                            <i class="mdi  mdi-chart-areaspline  menu-icon"></i>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Reports/Index/">
+                            <span class="menu-title">Rapor Yönetimi</span>
+                            <i class="mdi  mdi-file-pdf-box  menu-icon"></i>
+                        </a>
+                    </li>
+
+
+                </ul>
+            </nav>
+            <!-- partial -->
+            <div class="main-panel">
+                <div class="content-wrapper">
+
+                    <div class="col-12 grid-margin stretch-card">
+                        <div class="card">
+                            <div class="card-body">
+                                @RenderBody()
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- content-wrapper ends -->
+                <!-- partial:partials/_footer.html -->
+                <footer class="footer">
+                    <div class="d-sm-flex justify-content-center justify-content-sm-between">
+                        <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Copyright © 2020. All rights reserved.</span>
+                        <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">Hand-crafted & dev by <a href="https://www.buproject.net" target="_blank">buproject </a></span>
+                    </div>
+                </footer>
+                <!-- partial -->
+            </div>
+            <!-- main-panel ends -->
+        </div>
+        <!-- page-body-wrapper ends -->
+    </div>
+    <!-- container-scroller -->
+    <!-- plugins:js -->
+    <script src="/Content/AdminLayout/assets/vendors/js/vendor.bundle.base.js"></script>
+    <!-- endinject -->
+    <!-- Plugin js for this page -->
+    <script src="/Content/AdminLayout/assets/vendors/chart.js/Chart.min.js"></script>
+    <!-- End plugin js for this page -->
+    <!-- inject:js -->
+    <script src="/Content/AdminLayout/assets/js/off-canvas.js"></script>
+    <script src="/Content/AdminLayout/assets/js/hoverable-collapse.js"></script>
+    <script src="/Content/AdminLayout/assets/js/misc.js"></script>
+    <!-- endinject -->
+    <!-- Custom js for this page -->
+    <script src="/Content/AdminLayout/assets/js/dashboard.js"></script>
+    <script src="/Content/AdminLayout/assets/js/todolist.js"></script>
+    <!-- End custom js for this page -->
+
+
+    <script src="~/Scripts/jquery-3.5.1.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Content/ckeditor/ckeditor.js"></script>
+    <link href="~/Content/ckeditor/contents.css" rel="stylesheet" />
+
+</body>
+</html>

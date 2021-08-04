@@ -1,0 +1,2021 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\uralo\OneDrive\Masaüstü\yased-publish</_PublishTargetUrl>
+    <History>True|2021-05-12T13:20:29.9002983Z;True|2021-05-02T01:59:17.0117244+03:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>03/02/2015 09:32:26</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>03/02/2015 09:32:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>04/30/2021 23:00:46</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>04/30/2021 23:00:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>04/30/2021 23:00:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>04/30/2021 23:00:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>04/30/2021 23:00:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>04/30/2021 23:00:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe.config">
+      <publishTime>04/30/2021 23:00:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>04/30/2021 23:00:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>04/30/2021 23:00:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>04/30/2021 23:00:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>04/30/2021 23:00:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>04/30/2021 23:00:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>04/30/2021 23:00:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>04/30/2021 23:00:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>04/30/2021 23:00:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>04/30/2021 23:00:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>04/30/2021 23:00:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Managed.Core.targets">
+      <publishTime>04/30/2021 23:00:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>04/30/2021 23:00:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>04/30/2021 23:00:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>04/30/2021 23:00:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Console.dll">
+      <publishTime>04/30/2021 23:00:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>04/30/2021 23:00:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>04/30/2021 23:00:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.dll">
+      <publishTime>04/30/2021 23:00:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>04/30/2021 23:00:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>04/30/2021 23:00:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Pipes.AccessControl.dll">
+      <publishTime>04/30/2021 23:00:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Pipes.dll">
+      <publishTime>04/30/2021 23:00:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>04/30/2021 23:00:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.AccessControl.dll">
+      <publishTime>04/30/2021 23:00:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Claims.dll">
+      <publishTime>04/30/2021 23:00:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>04/30/2021 23:00:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
+      <publishTime>04/30/2021 23:00:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
+      <publishTime>04/30/2021 23:00:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>04/30/2021 23:00:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Principal.Windows.dll">
+      <publishTime>04/30/2021 23:00:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
+      <publishTime>04/30/2021 23:00:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.ValueTuple.dll">
+      <publishTime>04/30/2021 23:00:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
+      <publishTime>04/30/2021 23:00:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
+      <publishTime>04/30/2021 23:00:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.dll">
+      <publishTime>04/30/2021 23:00:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
+      <publishTime>04/30/2021 23:00:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>04/30/2021 23:00:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>04/30/2021 23:00:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>04/30/2021 23:00:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>04/30/2021 23:00:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>04/30/2021 23:00:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Deployment.dll">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.dll">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Razor.dll">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="bin/Yased-Api.dll">
+      <publishTime>05/12/2021 16:20:28</publishTime>
+    </File>
+    <File Include="bin/Yased-Api.pdb">
+      <publishTime>05/12/2021 16:20:28</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/css/style.css">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/css/style.css.map">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/fonts/Ubuntu/Ubuntu-Bold.eot">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/fonts/Ubuntu/Ubuntu-Bold.ttf">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/fonts/Ubuntu/Ubuntu-Bold.woff">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/fonts/Ubuntu/Ubuntu-Bold.woff2">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/fonts/Ubuntu/Ubuntu-Light.eot">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/fonts/Ubuntu/Ubuntu-Light.ttf">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/fonts/Ubuntu/Ubuntu-Light.woff">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/fonts/Ubuntu/Ubuntu-Light.woff2">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/fonts/Ubuntu/Ubuntu-Medium.eot">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/fonts/Ubuntu/Ubuntu-Medium.ttf">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/fonts/Ubuntu/Ubuntu-Medium.woff">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/fonts/Ubuntu/Ubuntu-Medium.woff2">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/fonts/Ubuntu/Ubuntu-Regular.eot">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/fonts/Ubuntu/Ubuntu-Regular.ttf">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/fonts/Ubuntu/Ubuntu-Regular.woff">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/fonts/Ubuntu/Ubuntu-Regular.woff2">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/images/dashboard/circle.png">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/images/dashboard/circle.svg">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/images/dashboard/img_1.jpg">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/images/dashboard/img_2.jpg">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/images/dashboard/img_3.jpg">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/images/dashboard/img_4.jpg">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/images/faces-clipart/pic-1.png">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/images/faces-clipart/pic-2.png">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/images/faces-clipart/pic-3.png">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/images/faces-clipart/pic-4.png">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/images/faces/face1.jpg">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/images/faces/face10.jpg">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/images/faces/face11.jpg">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/images/faces/face12.jpg">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/images/faces/face13.jpg">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/images/faces/face14.jpg">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/images/faces/face15.jpg">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/images/faces/face16.jpg">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/images/faces/face17.jpg">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/images/faces/face18.jpg">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/images/faces/face19.jpg">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/images/faces/face2.jpg">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/images/faces/face20.jpg">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/images/faces/face21.jpg">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/images/faces/face22.jpg">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/images/faces/face23.jpg">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/images/faces/face24.jpg">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/images/faces/face25.jpg">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/images/faces/face26.jpg">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/images/faces/face27.jpg">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/images/faces/face3.jpg">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/images/faces/face4.jpg">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/images/faces/face5.jpg">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/images/faces/face6.jpg">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/images/faces/face7.jpg">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/images/faces/face8.jpg">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/images/faces/face9.jpg">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/images/favicon.ico">
+      <publishTime>09/05/2020 16:23:24</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/images/favicon.png">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/images/logo-mini.svg">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/images/logo.png">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/images/logo.svg">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/images/sprites/blue.png">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/images/sprites/dark.png">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/images/sprites/flag.png">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/images/sprites/green.png">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/images/sprites/jsgrid-icons.png">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/images/sprites/red.png">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/images/sprites/yellow.png">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/js/chart.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/js/dashboard.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/js/file-upload.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/js/hoverable-collapse.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/js/misc.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/js/off-canvas.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/js/todo.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/js/todolist.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/scss/components/_badges.scss">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/scss/components/_bootstrap-progress.scss">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/scss/components/_breadcrumbs.scss">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/scss/components/_buttons.scss">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/scss/components/_cards.scss">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/scss/components/_checkbox-radio.scss">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/scss/components/_dropdown.scss">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/scss/components/_forms.scss">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/scss/components/_icons.scss">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/scss/components/_lists.scss">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/scss/components/_preview.scss">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/scss/components/_tables.scss">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/scss/components/_todo-list.scss">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/scss/landing-screens/_auth.scss">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/scss/mixins/_animation.scss">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/scss/mixins/_background.scss">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/scss/mixins/_badges.scss">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/scss/mixins/_blockqoute.scss">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/scss/mixins/_breadcrumbs.scss">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/scss/mixins/_buttons.scss">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/scss/mixins/_cards.scss">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/scss/mixins/_misc.scss">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/scss/mixins/_pagination.scss">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/scss/mixins/_popovers.scss">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/scss/mixins/_text.scss">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/scss/mixins/_tooltips.scss">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/scss/style.scss">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/scss/_dashboard.scss">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/scss/_demo.scss">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/scss/_fonts.scss">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/scss/_footer.scss">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/scss/_functions.scss">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/scss/_layouts.scss">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/scss/_misc.scss">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/scss/_navbar.scss">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/scss/_reset.scss">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/scss/_sidebar.scss">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/scss/_typography.scss">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/scss/_utilities.scss">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/scss/_variables.scss">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/scss/_vertical-wrapper.scss">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/scss/_widget-grid.scss">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/vendors/chart.js/Chart.min.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/vendors/css/vendor.bundle.base.css">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/vendors/js/bootstrap.min.js.map">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/vendors/js/vendor.bundle.base.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/vendors/mdi/css/materialdesignicons.min.css">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/vendors/mdi/css/materialdesignicons.min.css.map">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/vendors/mdi/fonts/materialdesignicons-webfont.eot">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/vendors/mdi/fonts/materialdesignicons-webfont.ttf">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/vendors/mdi/fonts/materialdesignicons-webfont.woff">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/AdminLayout/assets/vendors/mdi/fonts/materialdesignicons-webfont.woff2">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.css">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.css.map">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.min.css">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.min.css.map">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.css">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.css.map">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.min.css">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.min.css.map">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css">
+      <publishTime>04/09/2020 23:41:02</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css">
+      <publishTime>04/09/2020 23:41:02</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css.map">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css.map">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/adapters/jquery.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/build-config.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/CHANGES.md">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/ckeditor.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/config.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/contents.css">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/af.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/ar.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/az.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/bg.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/bn.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/bs.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/ca.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/cs.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/cy.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/da.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/de-ch.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/de.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/el.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/en-au.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/en-ca.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/en-gb.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/en.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/eo.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/es-mx.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/es.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/et.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/eu.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/fa.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/fi.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/fo.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/fr-ca.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/fr.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/gl.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/gu.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/he.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/hi.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/hr.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/hu.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/id.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/is.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/it.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/ja.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/ka.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/km.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/ko.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/ku.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/lt.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/lv.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/mk.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/mn.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/ms.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/nb.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/nl.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/no.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/oc.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/pl.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/pt-br.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/pt.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/ro.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/ru.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/si.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/sk.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/sl.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/sq.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/sr-latn.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/sr.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/sv.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/th.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/tr.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/tt.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/ug.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/uk.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/vi.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/zh-cn.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/zh.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/LICENSE.md">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/af.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/ar.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/az.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/bg.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/ca.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/cs.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/cy.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/da.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/de-ch.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/de.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/el.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/en-au.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/en-gb.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/en.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/eo.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/es-mx.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/es.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/et.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/eu.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/fa.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/fi.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/fo.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/fr-ca.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/fr.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/gl.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/gu.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/he.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/hi.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/hr.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/hu.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/id.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/it.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/ja.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/km.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/ko.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/ku.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/lt.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/lv.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/mk.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/mn.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/nb.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/nl.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/no.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/oc.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/pl.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/pt-br.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/pt.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/ro.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/ru.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/si.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/sk.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/sl.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/sq.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/sr-latn.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/sr.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/sv.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/th.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/tr.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/tt.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/ug.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/uk.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/vi.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/zh-cn.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/zh.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/about/dialogs/about.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/about/dialogs/hidpi/logo_ckeditor.png">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/about/dialogs/logo_ckeditor.png">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/clipboard/dialogs/paste.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/dialog/dialogDefinition.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/dialog/styles/dialog.css">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/icons.png">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/icons_hidpi.png">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/image/dialogs/image.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/image/images/noimage.png">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/link/dialogs/anchor.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/link/dialogs/link.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/link/images/anchor.png">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/link/images/hidpi/anchor.png">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/magicline/images/hidpi/icon-rtl.png">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/magicline/images/hidpi/icon.png">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/magicline/images/icon-rtl.png">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/magicline/images/icon.png">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/pastefromgdocs/filter/default.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/pastefromword/filter/default.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/pastetools/filter/common.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/pastetools/filter/image.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/scayt/CHANGELOG.md">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/scayt/dialogs/dialog.css">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/scayt/dialogs/options.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/scayt/dialogs/toolbar.css">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/scayt/LICENSE.md">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/scayt/README.md">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/af.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/ar.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/az.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/bg.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/ca.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/cs.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/cy.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/da.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/de-ch.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/de.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/el.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/en-au.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/en-ca.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/en-gb.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/en.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/eo.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/es-mx.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/es.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/et.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/eu.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/fa.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/fi.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/fr-ca.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/fr.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/gl.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/he.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/hr.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/hu.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/id.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/it.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/ja.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/km.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/ko.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/ku.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/lt.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/lv.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/nb.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/nl.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/no.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/oc.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/pl.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/pt-br.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/pt.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/ro.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/ru.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/si.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/sk.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/sl.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/sq.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/sr-latn.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/sr.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/sv.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/th.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/tr.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/tt.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/ug.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/uk.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/vi.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/zh-cn.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/zh.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/specialchar.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/table/dialogs/table.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/tableselection/styles/tableselection.css">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/tabletools/dialogs/tableCell.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/widget/images/handle.png">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/wsc/dialogs/ciframe.html">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/wsc/dialogs/tmpFrameset.html">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/wsc/dialogs/wsc.css">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/wsc/dialogs/wsc.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/wsc/dialogs/wsc_ie.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/wsc/LICENSE.md">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/wsc/README.md">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/wsc/skins/moono-lisa/wsc.css">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/README.md">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/skins/moono-lisa/dialog.css">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/skins/moono-lisa/dialog_ie.css">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/skins/moono-lisa/dialog_ie8.css">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/skins/moono-lisa/dialog_iequirks.css">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/skins/moono-lisa/editor.css">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/skins/moono-lisa/editor_gecko.css">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/skins/moono-lisa/editor_ie.css">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/skins/moono-lisa/editor_ie8.css">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/skins/moono-lisa/editor_iequirks.css">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/skins/moono-lisa/icons.png">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/skins/moono-lisa/icons_hidpi.png">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/skins/moono-lisa/images/arrow.png">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/skins/moono-lisa/images/close.png">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/skins/moono-lisa/images/hidpi/close.png">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/skins/moono-lisa/images/hidpi/lock-open.png">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/skins/moono-lisa/images/hidpi/lock.png">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/skins/moono-lisa/images/hidpi/refresh.png">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/skins/moono-lisa/images/lock-open.png">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/skins/moono-lisa/images/lock.png">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/skins/moono-lisa/images/refresh.png">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/skins/moono-lisa/images/spinner.gif">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/skins/moono-lisa/readme.md">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/styles.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/ckeditor/vendor/promise.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>04/09/2020 23:41:02</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>04/09/2020 23:41:02</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>04/09/2020 23:41:02</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>04/09/2020 23:41:02</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="libman.json">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Models/YasedDB.edmx.diagram">
+      <publishTime>09/08/2020 18:24:02</publishTime>
+    </File>
+    <File Include="Models/YasedWebDB.edmx.diagram">
+      <publishTime>05/01/2021 13:59:44</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.js.map">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.min.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.min.js.map">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js.map">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js.map">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper-utils.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper-utils.js.map">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper-utils.min.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper-utils.min.js.map">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper.js.map">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper.min.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper.min.js.map">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/index.js.flow">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.js">
+      <publishTime>04/09/2020 23:41:03</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.js">
+      <publishTime>04/09/2020 23:41:03</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.map">
+      <publishTime>04/09/2020 23:41:03</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.5.1.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.5.1.min.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.5.1.min.map">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.5.1.slim.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.5.1.slim.min.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.5.1.slim.min.map">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.6.2.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/popper-utils.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/popper-utils.js.map">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/popper-utils.min.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/popper-utils.min.js.map">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/popper.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/popper.js.map">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/popper.min.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/popper.min.js.map">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/README.md">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/src/index.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/src/methods/defaults.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/src/methods/destroy.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/src/methods/disableEventListeners.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/src/methods/enableEventListeners.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/src/methods/placements.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/src/methods/update.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/src/modifiers/applyStyle.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/src/modifiers/arrow.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/src/modifiers/computeStyle.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/src/modifiers/flip.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/src/modifiers/hide.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/src/modifiers/index.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/src/modifiers/inner.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/src/modifiers/keepTogether.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/src/modifiers/offset.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/src/modifiers/preventOverflow.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/src/modifiers/shift.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/clockwise.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/computeAutoPlacement.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/debounce.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/find.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/findCommonOffsetParent.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/findIndex.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getBordersSize.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getBoundaries.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getBoundingClientRect.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getClientRect.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getFixedPositionOffsetParent.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getOffsetParent.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getOffsetRect.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getOffsetRectRelativeToArbitraryNode.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getOppositePlacement.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getOppositeVariation.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getOuterSizes.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getParentNode.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getPopperOffsets.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getReferenceNode.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getReferenceOffsets.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getRoot.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getRoundedOffsets.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getScroll.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getScrollParent.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getStyleComputedProperty.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getSupportedPropertyName.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getViewportOffsetRectRelativeToArtbitraryNode.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getWindow.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getWindowSizes.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/includeScroll.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/index.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/isBrowser.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/isFixed.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/isFunction.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/isIE.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/isModifierEnabled.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/isModifierRequired.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/isNumeric.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/isOffsetContainer.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/removeEventListeners.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/runModifiers.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/setAttributes.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/setStyles.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/setupEventListeners.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper-utils.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper-utils.js.map">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper-utils.min.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper-utils.min.js.map">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper.js.flow">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper.js.map">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper.min.js">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper.min.js.map">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Views/Activities/Create.cshtml">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Views/Activities/Delete.cshtml">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Views/Activities/Details.cshtml">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Views/Activities/Edit.cshtml">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Views/Activities/Index.cshtml">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Views/Admin/Index.cshtml">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Views/Admin/Login.cshtml">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Views/Contents/Create.cshtml">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Views/Contents/Delete.cshtml">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Views/Contents/Details.cshtml">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Views/Contents/Edit.cshtml">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Views/Contents/Index.cshtml">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Views/Galleries/Create.cshtml">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Views/Galleries/Delete.cshtml">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Views/Galleries/Details.cshtml">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Views/Galleries/Edit.cshtml">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Views/Galleries/Index.cshtml">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Views/Insights/Create.cshtml">
+      <publishTime>05/01/2021 13:09:35</publishTime>
+    </File>
+    <File Include="Views/Insights/Delete.cshtml">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Views/Insights/Details.cshtml">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Views/Insights/Edit.cshtml">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Views/Insights/Index.cshtml">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Views/Media/Create.cshtml">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Views/Media/Delete.cshtml">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Views/Media/Details.cshtml">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Views/Media/Edit.cshtml">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Views/Media/Index.cshtml">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Views/Members/Create.cshtml">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Views/Members/Delete.cshtml">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Views/Members/Details.cshtml">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Views/Members/Edit.cshtml">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Views/Members/Index.cshtml">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Views/MemberUsers/Create.cshtml">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Views/MemberUsers/Delete.cshtml">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Views/MemberUsers/Details.cshtml">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Views/MemberUsers/Edit.cshtml">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Views/MemberUsers/Index.cshtml">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Views/Menus/Create.cshtml">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Views/Menus/Delete.cshtml">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Views/Menus/Details.cshtml">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Views/Menus/Edit.cshtml">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Views/Menus/Index.cshtml">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Views/News/Create.cshtml">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Views/News/Delete.cshtml">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Views/News/Details.cshtml">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Views/News/Edit.cshtml">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Views/News/Index.cshtml">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Views/Notes/Create.cshtml">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Views/Notes/Delete.cshtml">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Views/Notes/Details.cshtml">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Views/Notes/Edit.cshtml">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Views/Notes/Index.cshtml">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Views/Profiles/Create.cshtml">
+      <publishTime>05/02/2021 11:13:42</publishTime>
+    </File>
+    <File Include="Views/Profiles/Delete.cshtml">
+      <publishTime>05/01/2021 01:33:31</publishTime>
+    </File>
+    <File Include="Views/Profiles/Details.cshtml">
+      <publishTime>05/01/2021 01:33:32</publishTime>
+    </File>
+    <File Include="Views/Profiles/Edit.cshtml">
+      <publishTime>05/02/2021 11:13:59</publishTime>
+    </File>
+    <File Include="Views/Profiles/Index.cshtml">
+      <publishTime>05/01/2021 14:37:24</publishTime>
+    </File>
+    <File Include="Views/ReportCats/Create.cshtml">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Views/ReportCats/Delete.cshtml">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Views/ReportCats/Details.cshtml">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Views/ReportCats/Edit.cshtml">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Views/ReportCats/Index.cshtml">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Views/Reports/Create.cshtml">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Views/Reports/Delete.cshtml">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Views/Reports/Details.cshtml">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Views/Reports/Edit.cshtml">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Views/Reports/Index.cshtml">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Views/Shared/_AdminLayout.cshtml">
+      <publishTime>01/05/2021 01:34:01</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Views/Slider/Create.cshtml">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Views/Slider/Edit.cshtml">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Views/Slider/Index.cshtml">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Views/Uniteds/Create.cshtml">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Views/Uniteds/Delete.cshtml">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Views/Uniteds/Details.cshtml">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Views/Uniteds/Edit.cshtml">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Views/Uniteds/Index.cshtml">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Views/web.config">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>04/30/2021 23:00:45</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>05/02/2021 01:59:15</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

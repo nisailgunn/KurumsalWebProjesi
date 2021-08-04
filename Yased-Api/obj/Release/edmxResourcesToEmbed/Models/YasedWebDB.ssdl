@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="YasedWebDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Activities">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Title" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Title_EN" Type="nvarchar" MaxLength="100" />
+    <Property Name="Content" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Content_EN" Type="nvarchar(max)" />
+    <Property Name="Image" Type="nvarchar(max)" />
+    <Property Name="Date" Type="datetime" Nullable="false" />
+    <Property Name="Url" Type="nvarchar(max)" />
+    <Property Name="Slug" Type="nvarchar(max)" />
+    <Property Name="Slug_EN" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Content">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Title" Type="varchar" MaxLength="500" Nullable="false" />
+    <Property Name="Description" Type="varchar(max)" Nullable="false" />
+    <Property Name="Description_EN" Type="varchar(max)" />
+    <Property Name="Slug" Type="varchar(max)" Nullable="false" />
+    <Property Name="Slug_EN" Type="varchar(max)" />
+    <Property Name="CategoryId" Type="int" />
+    <Property Name="Image" Type="nchar" MaxLength="100" />
+    <Property Name="Type" Type="int" />
+  </EntityType>
+  <EntityType Name="Galleries">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="image" Type="nvarchar" MaxLength="500" />
+    <Property Name="insight_id" Type="int" />
+    <Property Name="news_id" Type="int" />
+    <Property Name="united_id" Type="int" />
+    <Property Name="sort" Type="int" />
+  </EntityType>
+  <EntityType Name="Insights">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Title" Type="nvarchar" MaxLength="300" Nullable="false" />
+    <Property Name="Title_EN" Type="nvarchar" MaxLength="300" />
+    <Property Name="Image" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Slug" Type="nvarchar" MaxLength="300" Nullable="false" />
+    <Property Name="Slug_EN" Type="nvarchar" MaxLength="300" />
+    <Property Name="Date" Type="datetime" Nullable="false" />
+    <Property Name="Description" Type="text" Nullable="false" />
+    <Property Name="Description_EN" Type="text" />
+    <Property Name="Video" Type="text" />
+    <Property Name="Docs" Type="text" />
+    <Property Name="Spot" Type="text" />
+    <Property Name="Spot_EN" Type="text" />
+    <Property Name="Video_EN" Type="text" />
+    <Property Name="Docs_EN" Type="text" />
+  </EntityType>
+  <EntityType Name="Medias">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Title" Type="nvarchar" MaxLength="300" Nullable="false" />
+    <Property Name="Title_EN" Type="nvarchar" MaxLength="300" />
+    <Property Name="File" Type="nvarchar" MaxLength="500" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Members">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Title" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Title_EN" Type="nvarchar" MaxLength="100" />
+    <Property Name="Content" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Content_EN" Type="nvarchar(max)" />
+    <Property Name="Image" Type="nvarchar(max)" />
+    <Property Name="Slug" Type="nvarchar(max)" />
+    <Property Name="Slug_EN" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="MemberUsers">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FK_MemberStatusID" Type="int" />
+    <Property Name="FK_CompanyID" Type="int" />
+    <Property Name="FK_MemberRolesID" Type="int" />
+    <Property Name="FirstName" Type="nvarchar" MaxLength="50" />
+    <Property Name="LastName" Type="nvarchar" MaxLength="50" />
+    <Property Name="FullName" Type="nvarchar" MaxLength="50" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" />
+    <Property Name="Password" Type="nvarchar" MaxLength="50" />
+    <Property Name="PhotoPath" Type="nvarchar" MaxLength="150" />
+    <Property Name="Title" Type="nvarchar" MaxLength="50" />
+    <Property Name="MobilePhone" Type="nvarchar" MaxLength="50" />
+    <Property Name="Birthdate" Type="date" />
+    <Property Name="Gender" Type="bit" />
+    <Property Name="LoginKey" Type="nvarchar" MaxLength="500" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="LastLoginDate" Type="datetime" />
+    <Property Name="DeviceToken" Type="nvarchar" MaxLength="300" />
+    <Property Name="IsIOS" Type="bit" />
+    <Property Name="Version" Type="nvarchar" MaxLength="50" />
+    <Property Name="Model" Type="nvarchar" MaxLength="100" />
+    <Property Name="Uuid" Type="nvarchar" MaxLength="150" />
+    <Property Name="TokenUpdateDate" Type="datetime" />
+    <Property Name="ResetGuid" Type="nvarchar" MaxLength="50" />
+    <Property Name="ResetCount" Type="int" />
+    <Property Name="DocGuid" Type="nvarchar" MaxLength="36" />
+    <Property Name="Company" Type="nchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="Menu">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ParentId" Type="int" />
+    <Property Name="Name" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Name_EN" Type="nvarchar" MaxLength="100" />
+    <Property Name="Link" Type="nvarchar(max)" />
+    <Property Name="Sort" Type="int" Nullable="false" />
+    <Property Name="target" Type="nvarchar" MaxLength="50" />
+    <Property Name="Link_EN" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="News">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Title" Type="nvarchar" MaxLength="100" />
+    <Property Name="Title_EN" Type="nvarchar" MaxLength="100" />
+    <Property Name="Content" Type="nvarchar(max)" />
+    <Property Name="Content_EN" Type="nvarchar(max)" />
+    <Property Name="Image" Type="nvarchar(max)" />
+    <Property Name="Date" Type="datetime" Nullable="false" />
+    <Property Name="Url" Type="nvarchar(max)" />
+    <Property Name="Slug" Type="nvarchar(max)" />
+    <Property Name="Slug_EN" Type="nvarchar(max)" />
+    <Property Name="cat" Type="int" Nullable="false" />
+    <Property Name="Video" Type="text" />
+    <Property Name="Docs" Type="text" />
+    <Property Name="Spot" Type="text" />
+    <Property Name="Spot_EN" Type="text" />
+    <Property Name="Video_EN" Type="text" />
+    <Property Name="Docs_EN" Type="text" />
+    <Property Name="Is_Login" Type="int" />
+  </EntityType>
+  <EntityType Name="Notes">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Title" Type="nvarchar" MaxLength="300" Nullable="false" />
+    <Property Name="Title_EN" Type="nvarchar" MaxLength="300" />
+    <Property Name="File" Type="varchar(max)" Nullable="false" />
+    <Property Name="Slug" Type="nvarchar" MaxLength="300" Nullable="false" />
+    <Property Name="Slug_EN" Type="nvarchar" MaxLength="300" />
+    <Property Name="Date" Type="datetime" Nullable="false" />
+    <Property Name="ParentId" Type="int" />
+    <Property Name="File_EN" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Profiles">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="nvarchar" MaxLength="250" />
+    <Property Name="name_en" Type="nvarchar" MaxLength="250" />
+    <Property Name="title" Type="nvarchar" MaxLength="250" />
+    <Property Name="title_en" Type="nvarchar" MaxLength="250" />
+    <Property Name="label" Type="nvarchar" MaxLength="250" />
+    <Property Name="label_en" Type="nvarchar" MaxLength="250" />
+    <Property Name="image" Type="nvarchar" MaxLength="250" />
+  </EntityType>
+  <EntityType Name="ReportCats">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="250" Nullable="false" />
+    <Property Name="Name_EN" Type="varchar" MaxLength="250" />
+    <Property Name="Slug" Type="varchar" MaxLength="250" />
+    <Property Name="Slug_EN" Type="varchar" MaxLength="250" />
+  </EntityType>
+  <EntityType Name="Reports">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Title" Type="nvarchar" MaxLength="100" />
+    <Property Name="Title_EN" Type="nvarchar" MaxLength="100" />
+    <Property Name="Content" Type="nvarchar(max)" />
+    <Property Name="Content_EN" Type="nvarchar(max)" />
+    <Property Name="Image" Type="nvarchar(max)" />
+    <Property Name="File" Type="nvarchar(max)" />
+    <Property Name="Date" Type="datetime" Nullable="false" />
+    <Property Name="Url" Type="nvarchar(max)" />
+    <Property Name="Slug" Type="nvarchar(max)" />
+    <Property Name="Slug_EN" Type="nvarchar(max)" />
+    <Property Name="ParentId" Type="int" />
+    <Property Name="File_EN" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Sliders">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Title" Type="nvarchar" MaxLength="150" />
+    <Property Name="Title_EN" Type="nvarchar" MaxLength="150" />
+    <Property Name="Description" Type="nvarchar" MaxLength="200" />
+    <Property Name="Description_EN" Type="nvarchar" MaxLength="200" />
+    <Property Name="Slug" Type="nvarchar" MaxLength="200" />
+    <Property Name="Slug_EN" Type="nvarchar" MaxLength="200" />
+    <Property Name="ImageURL" Type="nvarchar(max)" />
+    <Property Name="Link" Type="nvarchar(max)" />
+    <Property Name="Link_EN" Type="nvarchar(max)" />
+    <Property Name="Sort" Type="int" />
+    <Property Name="CategoryId" Type="int" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="United">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Title" Type="nvarchar" MaxLength="300" Nullable="false" />
+    <Property Name="Title_EN" Type="nvarchar" MaxLength="300" />
+    <Property Name="Image" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Slug" Type="nvarchar" MaxLength="300" Nullable="false" />
+    <Property Name="Slug_EN" Type="nvarchar" MaxLength="300" />
+    <Property Name="Date" Type="datetime" Nullable="false" />
+    <Property Name="Docs" Type="text" />
+    <Property Name="Video" Type="text" />
+    <Property Name="Description" Type="text" />
+    <Property Name="Description_EN" Type="text" />
+    <Property Name="Spot" Type="text" />
+    <Property Name="Spot_EN" Type="text" />
+    <Property Name="Video_EN" Type="text" />
+    <Property Name="Docs_EN" Type="text" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Email" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Password" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="auth" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="YasedWebDBModelStoreContainer">
+    <EntitySet Name="Activities" EntityType="Self.Activities" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Content" EntityType="Self.Content" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Galleries" EntityType="Self.Galleries" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Insights" EntityType="Self.Insights" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Medias" EntityType="Self.Medias" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Members" EntityType="Self.Members" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MemberUsers" EntityType="Self.MemberUsers" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Menu" EntityType="Self.Menu" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="News" EntityType="Self.News" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Notes" EntityType="Self.Notes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Profiles" EntityType="Self.Profiles" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ReportCats" EntityType="Self.ReportCats" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Reports" EntityType="Self.Reports" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Sliders" EntityType="Self.Sliders" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="United" EntityType="Self.United" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

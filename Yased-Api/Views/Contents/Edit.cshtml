@@ -1,0 +1,148 @@
+﻿@model Yased_Api.Models.Content
+
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+@using (Html.BeginForm("Edit", "Contents", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>Content</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.Id)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Title, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Title, new { htmlAttributes = new { @class = "form-control", @required = "required" } })               
+                <span class="card-description">Zorunlu alan max 500 karakter</span>
+                @Html.ValidationMessageFor(model => model.Title, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Description, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                <textarea name="Description" class="ckeditor">@Model.Description</textarea>
+                @Html.ValidationMessageFor(model => model.Description, "", new { @class = "text-danger", @required = "required" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Description_EN, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                <textarea name="Description_EN" class="ckeditor">@Model.Description_EN</textarea>
+                @Html.ValidationMessageFor(model => model.Description_EN, "", new { @class = "text-danger", @required = "required" })
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="control-label col-md-2">
+                <label>Eski Resim</label>
+            </div>
+            <div class="col-md-10">
+                <img src="@Model.Image" id="image-preview" width="400" height="200" alt="Alternate Text" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Image, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                <input type="file" name="Image" onchange="readURL(this);" accept=".png,.jpg,.jpeg" class="form-control" id="imageselect" />
+                @Html.ValidationMessageFor(model => model.Image, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Slug, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Slug, new { htmlAttributes = new { @class = "form-control", @required = "required" } })
+                <span class="card-description">Zorunlu alan Türkçe karakter içeremez benzersiz olmalıdır</span>
+                @Html.ValidationMessageFor(model => model.Slug, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Slug_EN, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Slug_EN, new { htmlAttributes = new { @class = "form-control", @required = "required" } })
+                <span class="card-description">Zorunlu alan Türkçe karakter içeremez benzersiz olmalıdır</span>
+                @Html.ValidationMessageFor(model => model.Slug_EN, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            <label class="control-label col-md-2">Üst Kategori</label>
+            <div class="col-md-10">
+                <select name="CategoryId" class="custom-select" required>
+                    @if (Model.CategoryId == 1)
+                    {
+                        <option value="1" selected>Hakkımızda</option>
+                        <option value="2">Çalışma Grubu</option>
+                    }
+                    else
+                    {
+                        <option value="1">Hakkımızda</option>
+                        <option value="2" selected>Çalışma Grubu</option>
+                    }
+
+                </select>
+
+            </div>
+
+        </div>
+
+
+        <div class="form-group">
+            <label class="control-label col-md-2">Sayfa Tipi</label>
+            <div class="col-md-10">
+                <select name="Type" class="custom-select" required>
+                    @if (Model.Type == 1)
+                    {
+                        <option value="1" selected>Banner İçerik Sayfası</option>
+                        <option value="2">Full İçerik Sayfası</option>
+                    }
+                    else
+                    {
+                        <option value="1">Banner İçerik Sayfası</option>
+                        <option value="2" selected>Full İçerik Sayfası</option>
+                    }
+                </select>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10 text-right">
+                <input type="submit" value="Edit" class="btn btn-default btn-lg btn-gradient-dark mt-4 pull-right" />
+            </div>
+        </div>
+    </div>
+
+}
+
+
+<script src="/Scripts/jquery-3.5.1.min.js"></script>
+<script type="text/javascript">
+    CKEDITOR.replace('editor');
+
+    function readURL(input) {
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+
+            reader.onload = function (e) {
+                $('#image-preview').attr('src', e.target.result);
+            }
+
+            reader.readAsDataURL(input.files[0]);
+        }
+    }
+
+</script>
+

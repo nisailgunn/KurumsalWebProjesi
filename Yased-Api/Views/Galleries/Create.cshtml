@@ -1,0 +1,58 @@
+﻿@model Yased_Api.Models.Gallery
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+@using (Html.BeginForm("Create", "Galleries", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>Yeni Resim Ekle</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.LabelFor(model => model.image, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                <input type="file" name="image" accept=".png,.jpg,.jpeg" class="form-control" multiple/>
+                @Html.ValidationMessageFor(model => model.image, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <input type="text" style="display:none" class="form-control" name="news_id" value="@ViewBag.news_id" />
+        <input type="text" style="display:none" class="form-control" name="insight_id" value="@ViewBag.insight_id" />
+        <input type="text" style="display:none" class="form-control" name="united_id" value="@ViewBag.united_id" />
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.sort, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.sort, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.sort, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Ekle" class="btn btn-gradient-dark" />
+            </div>
+        </div>
+    </div>
+}
+    <div class="form-horizontal">
+        <h3>Galeri</h3>
+        <hr />
+        <div class="row">
+            @foreach (var item in ViewBag.gallery)
+            {
+                <div class="col-md-3 text-center">
+                    <img src="@item.image" width="100%" />
+                    <a href="/Galleries/Delete/@item.Id" class="btn btn-danger" style="margin:10px 0;">Sil</a>
+                </div>
+            }
+        </div>
+
+    </div>
+

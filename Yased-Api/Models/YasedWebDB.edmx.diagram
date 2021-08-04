@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2b7541bb809e4bbea4b6798ae92fb677" Name="Diagram1" ZoomLevel="94">
+        <EntityTypeShape EntityType="YasedWebDBModel.Activity" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="YasedWebDBModel.Insight" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="YasedWebDBModel.Media" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="YasedWebDBModel.Member" Width="1.5" PointX="2.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="YasedWebDBModel.News" Width="1.5" PointX="6.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="YasedWebDBModel.Note" Width="1.5" PointX="4.625" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="YasedWebDBModel.Report" Width="1.5" PointX="8.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="YasedWebDBModel.Slider" Width="1.5" PointX="0.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="YasedWebDBModel.sysdiagram" Width="1.5" PointX="2.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="YasedWebDBModel.United" Width="1.5" PointX="8.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="YasedWebDBModel.User" Width="1.5" PointX="4.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="YasedWebDBModel.Content" Width="1.5" PointX="7.375" PointY="8.75" />
+        <EntityTypeShape EntityType="YasedWebDBModel.ReportCat" Width="1.5" PointX="9.375" PointY="9.75" />
+        <EntityTypeShape EntityType="YasedWebDBModel.MemberUser" Width="1.5" PointX="11.375" PointY="0.75" />
+        <EntityTypeShape EntityType="YasedWebDBModel.Menu" Width="1.5" PointX="3.375" PointY="11.75" />
+        <EntityTypeShape EntityType="YasedWebDBModel.Gallery" Width="1.5" PointX="11.375" PointY="7.75" />
+        <EntityTypeShape EntityType="YasedWebDBModel.Profile" Width="1.5" PointX="11.375" PointY="10.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

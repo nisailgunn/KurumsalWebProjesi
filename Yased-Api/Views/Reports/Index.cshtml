@@ -1,0 +1,46 @@
+﻿@model IEnumerable<Yased_Api.Models.Report>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Raporlar</h2>
+
+<p>
+    @Html.ActionLink("Yeni Ekle", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            Başlık
+        </th>
+        <th>
+            Tarih
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @if (!String.IsNullOrEmpty(item.Title))
+            {
+                @Html.DisplayFor(modelItem => item.Title);
+            }
+            else
+            {
+                @Html.DisplayFor(modelItem => item.Title_EN);
+            }
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Date)
+        </td>
+        <td>
+            @Html.ActionLink("Düzenle", "Edit", new { id=item.Id }) |
+            @Html.ActionLink("Sil", "Delete", new { id=item.Id })
+        </td>
+    </tr>
+}
+
+</table>
